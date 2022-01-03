@@ -22,3 +22,16 @@ function oddEven(num) {
 }
 let even = oddEven(19);
 console.log(even)
+
+// find vowel or consonent from and array
+
+function is_vowel(vowel) {
+    vowel = vowel.toLowerCase();
+    if (vowel === "a" || vowel === "e" || vowel === "i" || vowel === "o" || vowel === "u" ) {
+        return "Vowel " +"value == "+ vowel;
+    } else {
+        return "consonent " + " value == "+  vowel;
+    }
+}
+let check = is_vowel('c');
+console.log(check);
